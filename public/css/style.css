@@ -39,6 +39,8 @@ body * {
 h1 {
   font-size: 60px;
   margin: -80px 0 40px;
+  border-color: red;
+  border: 5px;
 }
 
 .year {
@@ -49,10 +51,12 @@ h1 {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  top:  5em;
 }
 
 .countdown {
   display: none;
+  
   transform: scale(2);
 }
 
@@ -85,4 +89,27 @@ h1 {
   .countdown__time small {
     font-size: 10px;
   }
+}
+
+.BotaoAnoNovo{
+  display: flex;
+  margin-top: 10em;
+  border-radius: 50%
+}
+
+.BotaoAnoNovo__butao{
+  
+  border-radius: 18px;
+}
+
+.BotaoAnoNovo__butao__label{
+  font-size: 18px;
+  padding-left: 6em;
+  padding-right: 6em;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
